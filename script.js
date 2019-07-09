@@ -20,6 +20,7 @@ function createGrid(x) {
 }
 
 function clear() {
+  location.reload();
   let x = prompt("Pick a number");
   createGrid(x);
 }
